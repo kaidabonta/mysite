@@ -1,3 +1,9 @@
+.main-wrapper{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .main-wrapper h1{
   font-size: 24px;
   color: red;
@@ -7,4 +13,28 @@
 .main-wrapper p{
   font-size: 15px;
   color: black;
+}
+
+.btn{
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #deb887;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 5px #8b4513;
+  opacity: 0.7;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.btn:active{
+  box-shadow: none;
+  position: relative;
+  top: 5px;
 }
