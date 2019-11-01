@@ -1,0 +1,10 @@
+.main-wrapper h1{
+  font-size: 24px;
+  color: red;
+  border-bottom: 2px solid black
+}
+
+.main-wrapper p{
+  font-size: 15px;
+  color: black;
+}
